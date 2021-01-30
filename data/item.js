@@ -60,7 +60,7 @@ var ITEM_DATA_INIT = {
 	patato:{
 		name:'土豆',
 		desc:'即使在火星上也能种。',
-		effect:{life:1, hunger:8},
+		effect:{life:125, hunger:100,thirst:100,san:100},
 		usable:true,
 		price:8,
 		plant:["patato"],
@@ -476,9 +476,9 @@ var ITEM_DATA_INIT = {
 	crowbar:{
 		name:'撬棍',
 		desc:'也许是最强的武器。',
-		attack:20,
+		attack:600,
 		durab:30,
-		speed:10,
+		speed:5,
 		range:2,
 		hitrate:1.1,
 		cost:2,
